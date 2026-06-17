@@ -1,0 +1,28 @@
+===== RELATÓRIO DE CONECTIVIDADE =====
+Data      : 16/06/2026 23:10:04
+Hostname  : PC-Joao
+Usuário   : joaov
+
+--- Endereços IP ---
+  127.0.0.1/8  (lo)
+  10.255.255.254/32  (lo)
+  192.168.100.13/24  (enP24128p0s0)
+  169.254.73.153/30  (loopback0)
+
+--- Gateway Padrão ---
+  192.168.100.1
+
+--- Interfaces de Rede ---
+  lo
+  enP24128p0s0
+  loopback0
+
+--- Teste de Internet ---
+  Internet: OK
+
+--- Verificação de Sites ---
+  google.com : ACESSÍVEL
+  github.com : ACESSÍVEL
+  8.8.8.8 : ACESSÍVEL
+
+===== FIM DO RELATÓRIO =====

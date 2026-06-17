@@ -1,0 +1,106 @@
+[16/06/2026 22:39:08] Projeto iniciado.
+[16/06/2026 22:39:10] Teste de internet: SUCESSO.
+[16/06/2026 22:39:11] Relatório gerado em /home/joaov/projeto_linux/relatorios/relatorio_rede.txt.
+[16/06/2026 22:39:11] Backup realizado em /home/joaov/projeto_linux/backup.
+[16/06/2026 22:39:11] Execução finalizada.
+[16/06/2026 22:42:45] Projeto iniciado.
+[16/06/2026 22:42:47] Teste de internet: SUCESSO.
+[16/06/2026 22:42:48] Relatório gerado em /home/joaov/projeto_linux/relatorios/relatorio_rede.txt.
+[16/06/2026 22:42:48] Backup realizado em /home/joaov/projeto_linux/backup.
+[16/06/2026 22:42:48] Execução finalizada.
+[16/06/2026 23:00:01] Projeto iniciado.
+============================================
+         MONITORNET - v2.0 Final            
+   Monitor de Conectividade de Rede         
+============================================
+Data/Hora : 16/06/2026 23:00:01
+Hostname  : PC-Joao
+Usuário   : joaov
+============================================
+
+----- Interfaces de Rede -----
+  lo
+  enP24128p0s0
+  loopback0
+
+----- Endereços IP da Máquina -----
+  127.0.0.1/8  (lo)
+  10.255.255.254/32  (lo)
+  192.168.100.13/24  (enP24128p0s0)
+  169.254.73.153/30  (loopback0)
+
+----- Gateway Padrão -----
+  Gateway: 192.168.100.1
+
+----- Teste de Conexão com a Internet -----
+  Testando conexão com 8.8.8.8 (Google DNS)...
+  Resultado: CONECTADO ✔
+[16/06/2026 23:00:03] Teste de internet: SUCESSO.
+
+----- Verificação de Sites -----
+  google.com : ACESSÍVEL ✔
+  github.com : ACESSÍVEL ✔
+  8.8.8.8 : ACESSÍVEL ✔
+
+----- Gerando Relatório -----
+[16/06/2026 23:00:03] Relatório gerado em /home/joaov/projeto_linux/relatorios/relatorio_rede.txt.
+  Relatório salvo em: /home/joaov/projeto_linux/relatorios/relatorio_rede.txt
+
+[16/06/2026 23:00:03] Backup realizado em /home/joaov/projeto_linux/backup.
+----- Backup -----
+  Backup salvo em: /home/joaov/projeto_linux/backup
+
+----- Agendamento com Crontab -----
+  Para executar automaticamente, adicione ao crontab:
+
+  A cada 10 minutos:
+  */10 * * * * bash /home/joaov/projeto_linux/scripts/sistema.sh >> /home/joaov/projeto_linux/logs/sistema.log 2>&1
+
+  Uma vez por dia às 08h:
+  0 8 * * * bash /home/joaov/projeto_linux/scripts/sistema.sh >> /home/joaov/projeto_linux/logs/sistema.log 2>&1
+
+  Para editar o crontab: crontab -e
+
+============================================
+  Execução finalizada com sucesso!
+  Log salvo em: /home/joaov/projeto_linux/logs/sistema.log
+============================================
+[16/06/2026 23:00:03] Execução finalizada.
+[16/06/2026 23:10:01] Projeto iniciado.
+============================================
+         MONITORNET - v2.0 Final            
+   Monitor de Conectividade de Rede         
+============================================
+Data/Hora : 16/06/2026 23:10:01
+Hostname  : PC-Joao
+Usuário   : joaov
+============================================
+
+----- Interfaces de Rede -----
+  lo
+  enP24128p0s0
+  loopback0
+
+----- Endereços IP da Máquina -----
+  127.0.0.1/8  (lo)
+  10.255.255.254/32  (lo)
+  192.168.100.13/24  (enP24128p0s0)
+  169.254.73.153/30  (loopback0)
+
+----- Gateway Padrão -----
+  Gateway: 192.168.100.1
+
+----- Teste de Conexão com a Internet -----
+  Testando conexão com 8.8.8.8 (Google DNS)...
+  Resultado: CONECTADO ✔
+[16/06/2026 23:10:03] Teste de internet: SUCESSO.
+
+----- Verificação de Sites -----
+  google.com : ACESSÍVEL ✔
+  github.com : ACESSÍVEL ✔
+  8.8.8.8 : ACESSÍVEL ✔
+
+----- Gerando Relatório -----
+[16/06/2026 23:10:04] Relatório gerado em /home/joaov/projeto_linux/relatorios/relatorio_rede.txt.
+  Relatório salvo em: /home/joaov/projeto_linux/relatorios/relatorio_rede.txt
+
