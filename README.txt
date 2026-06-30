@@ -9,8 +9,16 @@ O sistema verifica se a VM Linux está conectada corretamente à rede e à inter
 Ele mostra informações básicas da máquina, verifica o endereço IP, identifica
 o gateway padrão, testa a conexão com a internet e verifica sites específicos.
 
+Objetivo do sistema:
+Automatizar um diagnóstico simples de conectividade da VM Linux, registrando
+os testes em log e gerando um relatório final para consulta.
+
 Integrantes:
 - João Vitor
+
+O que cada integrante fez:
+- João Vitor: desenvolvimento do script principal, organização das pastas,
+  criação dos logs, geração do relatório e simulação do agendamento via crontab.
 
 ============================================================
 COMANDOS LINUX USADOS
@@ -51,8 +59,9 @@ ESTRUTURA DE PASTAS
 ============================================================
 
 projeto_linux/
+├── sistema.sh              ← script principal para executar o sistema
 ├── scripts/
-│   └── sistema.sh          ← script principal
+│   └── sistema.sh          ← código principal do sistema
 ├── logs/
 │   └── sistema.log         ← log de todas as execuções
 ├── relatorios/
@@ -120,12 +129,12 @@ COMO EXECUTAR O SCRIPT
 ============================================================
 
 1. Dar permissão de execução (apenas na primeira vez):
-   chmod +x scripts/sistema.sh
+   chmod +x sistema.sh
 
 2. Executar o script:
-   bash scripts/sistema.sh
+   ./sistema.sh
 
-   ou (após dar permissão):
-   ./scripts/sistema.sh
+   Se preferir, também pode executar diretamente:
+   bash scripts/sistema.sh
 
 ============================================================

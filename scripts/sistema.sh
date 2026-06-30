@@ -3,7 +3,7 @@
 # ==========================================
 # Sistema: MonitorNet
 # Tema: Monitor de conectividade de rede
-# Integrantes: João Vitor e colega
+# Integrantes: João Vitor
 # Versão: 2.0 - Final
 # ==========================================
 
